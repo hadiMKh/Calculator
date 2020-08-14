@@ -1,0 +1,137 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.Calc{
+    height: 100%;
+    background-color: lightslategray;
+    float: left;
+}
+
+.Side{
+    height: 100% ;
+    background-color: white ;
+    float: left;
+}
+
+.TxtCalc{
+    background-color: greenyellow ;
+    height: 18% ;
+    float: left ;
+    margin-left: 1% ;
+    margin-top: 1%;
+    text-align: center;
+    vertical-align: middle ;
+    font-size: 35px
+}
+
+.button {
+    color: black;
+    border: 2px solid #31d181;
+    z-index: 2;
+    background-color: #38cd83 ;
+    height: 18% ;
+    float: left ;
+    margin-left: 1% ;
+    margin-top: 1.5% ;
+    text-align: center;
+    vertical-align: middle ;
+    font-size: 35px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.BtnLeft{
+    margin-left: 2.5%;
+}
+
+.button1:hover {
+    background-color: #31d181;
+    color: white;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767.99999px) {
+    /* For desktop: */
+    .col-1 {
+        width: 25%;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+
+    .col-3 {
+        width: 23%;
+    }
+    .col-5 {
+        width: 48%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 98%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199.999px) {
+    /* For desktop: */
+    .col-1 {
+        width: 25%;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+
+    .col-3 {
+        width: 23%;
+    }
+    .col-5 {
+        width: 48%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 98%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 4000px) {
+    /* For desktop: */
+    .col-1 {
+        width: 25%;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+
+    .col-3 {
+        width: 23%;
+    }
+    .col-5 {
+        width: 48%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 98%;
+    }
+
+}
